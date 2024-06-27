@@ -1,0 +1,1091 @@
+{
+  "collaborations": [
+    {
+      "id": 1,
+      "datacenters": [
+        {
+          "id": 1,
+          "name": "DC1-cheap", 
+          "region": "us-west1",
+          "interLoadBalancer": {
+            "type": "batch"
+          },
+          "interSchedulers": {
+            "type": "diktyo",
+            "target": "dc",
+            "enablePipeline": false,
+            "isSupportForward": false,
+            "dcStateSynInfo": [
+              {
+                "dcId": 1,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 2,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 3,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 4,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 5,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 6,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 7,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 8,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 9,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 10,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              }
+            ]
+          },
+          "hostNum": 1,
+          "partitions": [
+            {
+              "length": 1
+            }
+          ],
+          "hostStates": [
+            {
+              "cpu": 100000000,
+              "ram": 200000000,
+              "storage": 200000000,
+              "bw": 200000000,
+              "startId": 0,
+              "length": 1
+            }
+          ],
+          "synchronizationGap": 0,
+          "competeGap": 100,
+          "intraSchedulers": [
+            {
+              "firstPartitionIndex": 0,
+              "type": "FirstFit"
+            }
+          ],
+          "intraLoadBalancer": {
+            "type": "batch"
+          },
+          "resourceAllocateSelector": {
+            "type": "simple"
+          },
+          "resourceUnitPrice": {
+            "pricePerCpuPerSec": 32.57,
+            "pricePerCpu": 32.57,
+            "pricePerRamPerSec": 32.57,
+            "pricePerRam": 32.57,
+            "pricePerStoragePerSec": 32.57,
+            "pricePerStorage": 32.57,
+            "pricePerBwPerSec": 32.57,
+            "pricePerBw": 32.57,
+            "pricePerRack": 32.57,
+            "HostNumPerRack": 1000
+          }
+        },
+        {
+          "id": 2,
+          "name": "DC2-cheap",
+          "region": "us-west2",
+          "interLoadBalancer": {
+            "type": "batch"
+          },
+          "interSchedulers": {
+            "type": "diktyo",
+            "target": "dc",
+            "enablePipeline": false,
+            "isSupportForward": false,
+            "dcStateSynInfo": [
+              {
+                "dcId": 1,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 2,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 3,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 4,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 5,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 6,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 7,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 8,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 9,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 10,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              }
+            ]
+          },
+          "hostNum": 1,
+          "partitions": [
+            {
+              "length": 1
+            }
+          ],
+          "hostStates": [
+            {
+              "cpu": 100000000,
+              "ram": 200000000,
+              "storage": 200000000,
+              "bw": 200000000,
+              "startId": 0,
+              "length": 1
+            }
+          ],
+          "synchronizationGap": 0,
+          "competeGap": 100,
+          "intraSchedulers": [
+            {
+              "firstPartitionIndex": 0,
+              "type": "FirstFit"
+            }
+          ],
+          "intraLoadBalancer": {
+            "type": "batch"
+          },
+          "resourceAllocateSelector": {
+            "type": "simple"
+          },
+          "resourceUnitPrice": {
+            "pricePerCpuPerSec": 35.83,
+            "pricePerCpu": 35.83,
+            "pricePerRamPerSec": 35.83,
+            "pricePerRam": 35.83,
+            "pricePerStoragePerSec": 35.83,
+            "pricePerStorage": 35.83,
+            "pricePerBwPerSec": 35.83,
+            "pricePerBw": 35.83,
+            "pricePerRack": 35.83,
+            "HostNumPerRack": 1000
+          }
+        },
+        {
+          "id": 3,
+          "name": "DC3-cheap", 
+          "region": "us-west3",
+          "interLoadBalancer": {
+            "type": "batch"
+          },
+          "interSchedulers": {
+            "type": "diktyo",
+            "target": "dc",
+            "enablePipeline": false,
+            "isSupportForward": false,
+            "dcStateSynInfo": [
+              {
+                "dcId": 1,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 2,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 3,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 4,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 5,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 6,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 7,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 8,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 9,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 10,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              }
+            ]
+          },
+          "hostNum": 1,
+          "partitions": [
+            {
+              "length": 1
+            }
+          ],
+          "hostStates": [
+            {
+              "cpu": 100000000,
+              "ram": 200000000,
+              "storage": 200000000,
+              "bw": 200000000,
+              "startId": 0,
+              "length": 1
+            }
+          ],
+          "synchronizationGap": 0,
+          "competeGap": 100,
+          "intraSchedulers": [
+            {
+              "firstPartitionIndex": 0,
+              "type": "FirstFit"
+            }
+          ],
+          "intraLoadBalancer": {
+            "type": "batch"
+          },
+          "resourceAllocateSelector": {
+            "type": "simple"
+          },
+          "resourceUnitPrice": {
+            "pricePerCpuPerSec": 32.57,
+            "pricePerCpu": 32.57,
+            "pricePerRamPerSec": 32.57,
+            "pricePerRam": 32.57,
+            "pricePerStoragePerSec": 32.57,
+            "pricePerStorage": 32.57,
+            "pricePerBwPerSec": 32.57,
+            "pricePerBw": 32.57,
+            "pricePerRack": 32.57,
+            "HostNumPerRack": 1000
+          }
+        },
+        {
+          "id": 4,
+          "name": "DC4-cheap",
+          "region": "us-west4",
+          "interLoadBalancer": {
+            "type": "batch"
+          },
+          "interSchedulers": {
+            "type": "diktyo",
+            "target": "dc",
+            "enablePipeline": false,
+            "isSupportForward": false,
+            "dcStateSynInfo": [
+              {
+                "dcId": 1,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 2,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 3,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 4,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 5,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 6,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 7,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 8,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 9,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 10,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              }
+            ]
+          },
+          "hostNum": 1,
+          "partitions": [
+            {
+              "length": 1
+            }
+          ],
+          "hostStates": [
+            {
+              "cpu": 100000000,
+              "ram": 200000000,
+              "storage": 200000000,
+              "bw": 200000000,
+              "startId": 0,
+              "length": 1
+            }
+          ],
+          "synchronizationGap": 0,
+          "competeGap": 100,
+          "intraSchedulers": [
+            {
+              "firstPartitionIndex": 0,
+              "type": "FirstFit"
+            }
+          ],
+          "intraLoadBalancer": {
+            "type": "batch"
+          },
+          "resourceAllocateSelector": {
+            "type": "simple"
+          },
+          "resourceUnitPrice": {
+            "pricePerCpuPerSec": 32.57,
+            "pricePerCpu": 32.57,
+            "pricePerRamPerSec": 32.57,
+            "pricePerRam": 32.57,
+            "pricePerStoragePerSec": 32.57,
+            "pricePerStorage": 32.57,
+            "pricePerBwPerSec": 32.57,
+            "pricePerBw": 32.57,
+            "pricePerRack": 32.57,
+            "HostNumPerRack": 1000
+          }
+        },
+        {
+          "id": 5,
+          "name": "DC5-cheap",
+          "region": "us-central2",
+          "interLoadBalancer": {
+            "type": "batch"
+          },
+          "interSchedulers": {
+            "type": "diktyo",
+            "target": "dc",
+            "enablePipeline": false,
+            "isSupportForward": false,
+            "dcStateSynInfo": [
+              {
+                "dcId": 1,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 2,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 3,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 4,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 5,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 6,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 7,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 8,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 9,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 10,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              }
+            ]
+          },
+          "hostNum": 1,
+          "partitions": [
+            {
+              "length": 1
+            }
+          ],
+          "hostStates": [
+            {
+              "cpu": 100000000,
+              "ram": 200000000,
+              "storage": 200000000,
+              "bw": 200000000,
+              "startId": 0,
+              "length": 1
+            }
+          ],
+          "synchronizationGap": 0,
+          "competeGap": 100,
+          "intraSchedulers": [
+            {
+              "firstPartitionIndex": 0,
+              "type": "FirstFit"
+            }
+          ],
+          "intraLoadBalancer": {
+            "type": "batch"
+          },
+          "resourceAllocateSelector": {
+            "type": "simple"
+          },
+          "resourceUnitPrice": {
+            "pricePerCpuPerSec": 36.41,
+            "pricePerCpu": 36.41,
+            "pricePerRamPerSec": 36.41,
+            "pricePerRam": 36.41,
+            "pricePerStoragePerSec": 36.41,
+            "pricePerStorage": 36.41,
+            "pricePerBwPerSec": 36.41,
+            "pricePerBw": 36.41,
+            "pricePerRack": 36.41,
+            "HostNumPerRack": 1000
+          }
+        },
+        {
+          "id": 6,
+          "name": "DC6-expensive",
+          "region": "us-central1",
+          "interLoadBalancer": {
+            "type": "batch"
+          },
+          "interSchedulers": {
+            "type": "diktyo",
+            "target": "dc",
+            "enablePipeline": false,
+            "isSupportForward": false,
+            "dcStateSynInfo": [
+              {
+                "dcId": 1,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 2,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 3,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 4,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 5,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 6,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 7,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 8,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 9,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 10,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              }
+            ]
+          },
+          "hostNum": 1,
+          "partitions": [
+            {
+              "length": 1
+            }
+          ],
+          "hostStates": [
+            {
+              "cpu": 30000000,
+              "ram": 60000000,
+              "storage": 60000000,
+              "bw": 60000000,
+              "startId": 0,
+              "length": 1
+            }
+          ],
+          "synchronizationGap": 0,
+          "competeGap": 100,
+          "intraSchedulers": [
+            {
+              "firstPartitionIndex": 0,
+              "type": "FirstFit"
+            }
+          ],
+          "intraLoadBalancer": {
+            "type": "batch"
+          },
+          "resourceAllocateSelector": {
+            "type": "simple"
+          },
+          "resourceUnitPrice": {
+            "pricePerCpuPerSec": 42.73,
+            "pricePerCpu": 42.73,
+            "pricePerRamPerSec": 42.73,
+            "pricePerRam": 42.73,
+            "pricePerStoragePerSec": 42.73,
+            "pricePerStorage": 42.73,
+            "pricePerBwPerSec": 42.73,
+            "pricePerBw": 42.73,
+            "pricePerRack": 42.73,
+            "HostNumPerRack": 1000
+          }
+        },
+        {
+          "id": 7,
+          "name": "DC7-expensive",
+          "region": "us-east1",
+          "interLoadBalancer": {
+            "type": "batch"
+          },
+          "interSchedulers": {
+            "type": "diktyo",
+            "target": "dc",
+            "enablePipeline": false,
+            "isSupportForward": false,
+            "dcStateSynInfo": [
+              {
+                "dcId": 1,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 2,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 3,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 4,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 5,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 6,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 7,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 8,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 9,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 10,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              }
+            ]
+          },
+          "hostNum": 1,
+          "partitions": [
+            {
+              "length": 1
+            }
+          ],
+          "hostStates": [
+            {
+              "cpu": 30000000,
+              "ram": 60000000,
+              "storage": 60000000,
+              "bw": 60000000,
+              "startId": 0,
+              "length": 1
+            }
+          ],
+          "synchronizationGap": 0,
+          "competeGap": 100,
+          "intraSchedulers": [
+            {
+              "firstPartitionIndex": 0,
+              "type": "FirstFit"
+            }
+          ],
+          "intraLoadBalancer": {
+            "type": "batch"
+          },
+          "resourceAllocateSelector": {
+            "type": "simple"
+          },
+          "resourceUnitPrice": {
+            "pricePerCpuPerSec": 44.44,
+            "pricePerCpu": 44.44,
+            "pricePerRamPerSec": 44.44,
+            "pricePerRam": 44.44,
+            "pricePerStoragePerSec": 44.44,
+            "pricePerStorage": 44.44,
+            "pricePerBwPerSec": 44.44,
+            "pricePerBw": 44.44,
+            "pricePerRack": 44.44,
+            "HostNumPerRack": 1000
+          }
+        },
+        {
+          "id": 8,
+          "name": "DC8-expensive",
+          "region": "us-east4",
+          "interLoadBalancer": {
+            "type": "batch"
+          },
+          "interSchedulers": {
+            "type": "diktyo",
+            "target": "dc",
+            "enablePipeline": false,
+            "isSupportForward": false,
+            "dcStateSynInfo": [
+              {
+                "dcId": 1,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 2,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 3,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 4,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 5,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 6,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 7,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 8,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 9,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 10,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              }
+            ]
+          },
+          "hostNum": 1,
+          "partitions": [
+            {
+              "length": 1
+            }
+          ],
+          "hostStates": [
+            {
+              "cpu": 30000000,
+              "ram": 60000000,
+              "storage": 60000000,
+              "bw": 60000000,
+              "startId": 0,
+              "length": 1
+            }
+          ],
+          "synchronizationGap": 0,
+          "competeGap": 100,
+          "intraSchedulers": [
+            {
+              "firstPartitionIndex": 0,
+              "type": "FirstFit"
+            }
+          ],
+          "intraLoadBalancer": {
+            "type": "batch"
+          },
+          "resourceAllocateSelector": {
+            "type": "simple"
+          },
+          "resourceUnitPrice": {
+            "pricePerCpuPerSec": 51.99,
+            "pricePerCpu": 51.99,
+            "pricePerRamPerSec": 51.99,
+            "pricePerRam": 51.99,
+            "pricePerStoragePerSec": 51.99,
+            "pricePerStorage": 51.99,
+            "pricePerBwPerSec": 51.99,
+            "pricePerBw": 51.99,
+            "pricePerRack": 51.99,
+            "HostNumPerRack": 1000
+          }
+        },
+        {
+          "id": 9,
+          "name": "DC9-expensive",
+          "region": "us-east5",
+          "interLoadBalancer": {
+            "type": "batch"
+          },
+          "interSchedulers": {
+            "type": "diktyo",
+            "target": "dc",
+            "enablePipeline": false,
+            "isSupportForward": false,
+            "dcStateSynInfo": [
+              {
+                "dcId": 1,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 2,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 3,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 4,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 5,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 6,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 7,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 8,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 9,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 10,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              }
+            ]
+          },
+          "hostNum": 1,
+          "partitions": [
+            {
+              "length": 1
+            }
+          ],
+          "hostStates": [
+            {
+              "cpu": 30000000,
+              "ram": 60000000,
+              "storage": 60000000,
+              "bw": 60000000,
+              "startId": 0,
+              "length": 1
+            }
+          ],
+          "synchronizationGap": 0,
+          "competeGap": 100,
+          "intraSchedulers": [
+            {
+              "firstPartitionIndex": 0,
+              "type": "FirstFit"
+            }
+          ],
+          "intraLoadBalancer": {
+            "type": "batch"
+          },
+          "resourceAllocateSelector": {
+            "type": "simple"
+          },
+          "resourceUnitPrice": {
+            "pricePerCpuPerSec": 51.99,
+            "pricePerCpu": 51.99,
+            "pricePerRamPerSec": 51.99,
+            "pricePerRam": 51.99,
+            "pricePerStoragePerSec": 51.99,
+            "pricePerStorage": 51.99,
+            "pricePerBwPerSec": 51.99,
+            "pricePerBw": 51.99,
+            "pricePerRack": 51.99,
+            "HostNumPerRack": 1000
+          }
+        },
+        {
+          "id": 10,
+          "name": "DC10-expensive",
+          "region": "us-south1",
+          "interLoadBalancer": {
+            "type": "batch"
+          },
+          "interSchedulers": {
+            "type": "diktyo",
+            "target": "dc",
+            "enablePipeline": false,
+            "isSupportForward": false,
+            "dcStateSynInfo": [
+              {
+                "dcId": 1,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 2,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 3,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 4,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 5,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 6,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 7,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 8,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 9,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              },
+              {
+                "dcId": 10,
+                "synInterval": 0,
+                "synStateType": "easySimple"
+              }
+            ]
+          },
+          "hostNum": 1,
+          "partitions": [
+            {
+              "length": 1
+            }
+          ],
+          "hostStates": [
+            {
+              "cpu": 30000000,
+              "ram": 60000000,
+              "storage": 60000000,
+              "bw": 60000000,
+              "startId": 0,
+              "length": 1
+            }
+          ],
+          "synchronizationGap": 0,
+          "competeGap": 100,
+          "intraSchedulers": [
+            {
+              "firstPartitionIndex": 0,
+              "type": "FirstFit"
+            }
+          ],
+          "intraLoadBalancer": {
+            "type": "batch"
+          },
+          "resourceAllocateSelector": {
+            "type": "simple"
+          },
+          "resourceUnitPrice": {
+            "pricePerCpuPerSec": 61.55,
+            "pricePerCpu": 61.55,
+            "pricePerRamPerSec": 61.55,
+            "pricePerRam": 61.55,
+            "pricePerStoragePerSec": 61.55,
+            "pricePerStorage": 61.55,
+            "pricePerBwPerSec": 61.55,
+            "pricePerBw": 61.55,
+            "pricePerRack": 61.55,
+            "HostNumPerRack": 1000
+          }
+        }
+      ]
+    }
+  ],
+  "failureCluster": {
+  }
+}
