@@ -684,8 +684,8 @@ def main():
         dirPrefixList.append(dirPrefix)
         
         # GET DATA from DB or CSV
-        # get_data()
-        get_data_from_csv()
+        get_data()
+        # get_data_from_csv()
 
         # PROCESS DATA
         process_data()
