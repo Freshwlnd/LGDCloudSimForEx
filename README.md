@@ -1,4 +1,4 @@
-# Lattice
+# Lattice: An Efficient Task Placement Framework for Geographically Distributed Clouds
 
 Welcome to the Lattice repository. This repository contains the experimental data, algorithm implementations, and experimental environment for our research paper. We aim to provide all necessary resources for replicating and understanding our experiments.
 
@@ -54,7 +54,7 @@ This will start the simulation in the background and log the output to a file.
 
 ### LGDCloudSim
 
-This directory contains the source code for the LGDCloudSim simulator, including all algorithm implementations and the experimental environment setup used in our research.
+This directory contains the source code for the [LGDCloudSim simulator](https://github.com/slipegg/LGDCloudSim), including all algorithm implementations and the experimental environment setup used in our research.
 
 ## Contributing
 
